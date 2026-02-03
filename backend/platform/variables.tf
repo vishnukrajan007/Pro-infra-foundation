@@ -1,7 +1,9 @@
 variable "region" {
-  type = string
+  type        = string
+  description = "AWS region"
 }
 
 variable "github_repos" {
-  type = list(string)
+  type        = list(string)
+  description = "GitHub repositories (org/repo)"
 }
